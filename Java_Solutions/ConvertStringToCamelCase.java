@@ -6,7 +6,7 @@
 
 public class ConvertStringToCamelCase{
 	public static void main(String[] args) {
-		System.out.println(toCamelCase("the-Stealth-Warrior"));
+		System.out.println(toCamelCase("the-Stealth-Warrior")); 
 	}
 	
 	static String toCamelCase(String s){
