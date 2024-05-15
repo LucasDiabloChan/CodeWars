@@ -2,8 +2,9 @@ public class DigitalRoot {
   public static int digital_root(int n) {
     n = Math.abs(n);
     
-    if(n < 10)
+    if(n < 10){
       return n;
+    }  
     
     String numStr = String.valueOf(n);
     int sum = 0;
