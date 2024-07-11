@@ -15,6 +15,6 @@ function narcissistic(int $value): bool {
     $soma += pow($num, $digits_len);
   }
   
-  return ($soma == $value) ? true : false;
+  return ($soma == $value);
 }
 ?>
